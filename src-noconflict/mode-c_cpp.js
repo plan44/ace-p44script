@@ -67,7 +67,8 @@ var c_cppHighlightRules = function() {
     );
 
     var storageType = (
-        "var|let|glob|global|unset|function"
+//        "var|let|glob|global|unset|function"
+        ""
     );
 
     var storageModifiers = (

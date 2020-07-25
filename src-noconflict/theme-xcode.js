@@ -29,7 +29,8 @@ background: rgb(198, 219, 174)\
 }\
 .ace-xcode .ace_marker-layer .ace_bracket {\
 margin: -1px 0 0 -1px;\
-border: 1px solid #BFBFBF\
+border: 1px solid #BFBFBF;\
+background: #FFFF00\
 }\
 .ace-xcode .ace_marker-layer .ace_active-line {\
 background: rgba(0, 0, 0, 0.071)\
@@ -44,25 +45,25 @@ border: 1px solid #B5D5FF\
 .ace-xcode .ace_keyword,\
 .ace-xcode .ace_meta,\
 .ace-xcode .ace_variable.ace_language {\
-color: #C800A4\
+color: #0453FF\
 }\
 .ace-xcode .ace_invisible {\
 color: #BFBFBF\
 }\
 .ace-xcode .ace_constant.ace_character,\
 .ace-xcode .ace_constant.ace_other {\
-color: #275A5E\
+color: #CC721A\
 }\
 .ace-xcode .ace_constant.ace_numeric {\
-color: #3A00DC\
+color: #EC922A\
 }\
 .ace-xcode .ace_entity.ace_other.ace_attribute-name,\
 .ace-xcode .ace_support.ace_constant,\
 .ace-xcode .ace_support.ace_function {\
-color: #450084\
+color: #21677E\
 }\
 .ace-xcode .ace_fold {\
-background-color: #C800A4;\
+background-color: #0033E8;\
 border-color: #000000\
 }\
 .ace-xcode .ace_entity.ace_name.ace_tag,\
@@ -74,7 +75,7 @@ color: #790EAD\
 color: #C900A4\
 }\
 .ace-xcode .ace_string {\
-color: #DF0002\
+color: #BF7F7F\
 }\
 .ace-xcode .ace_comment {\
 color: #008E00\
@@ -92,4 +93,3 @@ dom.importCssString(exports.cssText, exports.cssClass);
                         }
                     });
                 })();
-            
