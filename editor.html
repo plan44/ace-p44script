@@ -69,11 +69,20 @@ feature.splitflaps.init({ "modules":[
 ] });
 </pre>
 
-<script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/xcode");
-    editor.session.setMode("ace/mode/c_cpp");
+    editor.session.setMode("ace/mode/p44script");
+    editor.setOptions({
+      tabSize: 2,
+      useSoftTabs: true,
+      scrollPastEnd: 0.5,
+      enableBasicAutocompletion: false,
+      enableLiveAutocompletion: true,
+      enableSnippets: true,
+    });
 </script>
 
 </body>

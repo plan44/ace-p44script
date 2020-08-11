@@ -142,7 +142,7 @@ color: #DAD085;\
 }\
 .ace-ambiance .ace_comment {\
 font-style: italic;\
-color: #555;\
+color: #888;\
 }\
 .ace-ambiance .ace_comment.ace_doc {\
 }\
@@ -182,4 +182,3 @@ dom.importCssString(exports.cssText, exports.cssClass);
                         }
                     });
                 })();
-            
