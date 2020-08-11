@@ -3,7 +3,7 @@ ace.define("ace/snippets/p44script",["require","exports","module"], function(req
 
 exports.snippetText = "## Function\n\
 snippet func\n\
-	function ${1:function_name} (${2:arguments}${3:, arguments...})\n\
+	function ${1:function_name} (${2:argument} ${3:[ , arguments...]})\n\
 	{\n\
 		${4:/* function body */}\n\
 	}\n\
@@ -15,7 +15,7 @@ snippet conc\n\
 	}\n\
 ## Handler\n\
 snippet on\n\
-	on (${1:trigger expression}) ${2:toggling\|changing\|evaluating}\n\
+	on (${1:trigger expression}) ${2:[toggling\|changing\|evaluating]}\n\
 	{\n\
 		${3:/* handler code to run when trigger fires */}\n\
 	}\n\
