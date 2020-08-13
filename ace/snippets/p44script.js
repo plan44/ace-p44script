@@ -9,22 +9,22 @@ snippet func\n\
 	}\n\
 ## Concurrent\n\
 snippet conc\n\
-	concurrent ${1:threadname}\n\
+	concurrent as ${1:threadname}\n\
 	{\n\
 		${2:/* concurrently running code */}\n\
 	}\n\
 ## Handler\n\
 snippet on\n\
-	on (${1:trigger expression}) ${2:[toggling\|changing\|evaluating]}\n\
+	on (${1:trigger expression}) ${2:[toggling\|changing\|evaluating]} as ${3:trigger_result_var}\n\
 	{\n\
-		${3:/* handler code to run when trigger fires */}\n\
+		${4:/* handler code to run when trigger fires */}\n\
 	}\n\
 ## Try/Catch\n\
 snippet try\n\
 	try {\n\
 		${1:/* code that may cause error */}\n\
 	}\n\
-	catch (${2:error_variable}) {\n\
+	catch as ${2:error_variable} {\n\
 		${3:/* code that is run when error happens in try above. */}\n\
 	}\n\
 ## If/Else\n\
