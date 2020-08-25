@@ -62,7 +62,7 @@ var p44scriptHighlightRules = function() {
     var keywordControls = (
         "break|continue|else|if|" +
         "return|while|catch|try|" +
-        "concurrent|on|function|toggling|changing|evaluating|gettingtrue|as|" +
+        "concurrent|on|function|toggling|changing|evaluating|gettingtrue|stable|as|" +
         "var|glob|let|unset|global"
     );
 
