@@ -17,7 +17,7 @@ snippet conc\n\
 snippet on\n\
 	on (${1:trigger expression}) stable ${2:min_seconds} ${3:[toggling\|changing\|evaluating]} as ${4:trigger_result_var}\n\
 	{\n\
-		${4:/* handler code to run when trigger fires */}\n\
+		${5:/* handler code to run when trigger fires */}\n\
 	}\n\
 ## Try/Catch\n\
 snippet try\n\
