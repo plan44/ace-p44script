@@ -54,15 +54,15 @@ ace.define("ace/mode/p44script_highlight_rules",["require","exports","module","a
 var oop = require("../lib/oop");
 var DocCommentHighlightRules = require("./doc_comment_highlight_rules").DocCommentHighlightRules;
 var TextHighlightRules = require("./text_highlight_rules").TextHighlightRules;
-var cFunctions = exports.cFunctions = "\\b(?:abort|abs|after_time|await|between_dates|cyclic|dawn|day|delay|describe|dusk|elements|epoch(?:time|days)|error(?:code|domain|message)?|eval|every|find|format|formattime|frac|hour|if|ifvalid|initial|int|is_time|is_weekday|isvalid|json|jsonresource|lastarg|limited|log|loglevel(?:offset)?|macaddress|maprange|max|min|minute|month|(?:app|next|product)version|number|random|round|restartapp|second|shellquote|signal|string|strlen|substr|sunrise|sunset|system|testlater|throw|timeofday|undeclare|weekday|year|yearday|runafter|repeat|function|from|runto|stop|(?:global|context|local|thread)vars|(?:read|write)file|addledchain|analogcoloroutput|analogio|annotation|binary|bit|boolean|chr|context(?:functions|handlers)|currentledpower|dcmotor|delayuntil|device|digitalio|feature(?:call|event)?|flipbit|geturl|global(?:functions|handlers|s)|hex|hsv|httprequest|i2cdevice|ifok|indicator|isok|ledchaincover|lock|lowercase|lrg|makeview|maxblocktime|maxruntime|modbus(?:master|slave)|neededledpower|ord|(?:post|put)url|removeledchains|savescene|scene(?:id|no)?|set(?:bit|ledrefresh|maxledpower|rootview)|spidevice|strrep|trigger|udpsocket|uppercase|urlencode|valuesource|vdcapi|web(?:request|socket)|runafter|repeat|function|from|runto|stop)\\b";
+var cFunctions = exports.cFunctions = "\\b(?:abort|abs|after_time|await|between_dates|cquote|cyclic|dawn|day|delay(?:until)?|describe|dnssdbrowse|dusk|elements|epoch(?:time|days)|error(?:code|domain|message)?|eval|every|find|format|formattime|frac|hour|if|ifvalid|initial|int|is_time|is_weekday|isvalid|json|jsonresource|lastarg|limited|log|loglevel(?:offset)?|macaddress|maprange|max|message|min|minute|month|(?:app|next|product)version|number|random|round|replace|restartapp|second|shellquote|signal|string|strlen|substr|sunrise|sunset|system|testlater|throw|timeofday|undeclare|weekday|year|yearday|runafter|repeat|function|from|runto|stop|(?:global|context|local|thread)vars|(?:global|context)builtins|(?:read|write)file|addledchain|analogcoloroutput|analogio|annotation|binary|bit|boolean|chr|context(?:functions|handlers)|currentledpower|dcmotor|device|digitalio|feature(?:call|event)?|flipbit|geturl|global(?:functions|handlers|s)|hex|hsv|httprequest|i2cdevice|ifok|indicator|isok|ledchaincover|lock|lowercase|lrg|makeview|maxblocktime|maxruntime|modbus(?:master|slave)|neededledpower|ord|(?:post|put)url|removeledchains|savescene|scene(?:id|no)?|set(?:bit|ledrefresh|maxledpower|rootview)|spidevice|strrep|trigger|udpsocket|uppercase|urlencode|valuesource|vdcapi|web(?:request|socket)|runafter|repeat|function|from|runto|stop)\\b";
 
 var p44scriptHighlightRules = function() {
 
     var keywordControls = (
         "break|continue|else|if|" +
-        "return|while|catch|try|" +
+        "return|while|foreach|for|catch|try|" +
         "concurrent|on|function|toggling|changing|evaluating|gettingtrue|stable|as|" +
-        "var|glob|let|unset|global|local"
+        "var|glob|threadvar|let|unset|global|local"
     );
 
     var storageType = (
