@@ -19,6 +19,12 @@ snippet on\n\
 	{\n\
 		${5:/* handler code to run when trigger fires */}\n\
 	}\n\
+## Foreach\n\
+snippet fore\n\
+	foreach ${1:object or array} as ${2:[key,]} ${3:value}\n\
+	{\n\
+		${5:/* do something with value (and optionally, key) */}\n\
+	}\n\
 ## Try/Catch\n\
 snippet try\n\
 	try {\n\
