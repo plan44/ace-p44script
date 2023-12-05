@@ -9,9 +9,9 @@ snippet func\n\
 	}\n\
 ## Concurrent\n\
 snippet conc\n\
-	concurrent as ${1:threadname}\n\
+	concurrent passing ${1:var1[=expression][,var2...]} as ${2:threadname}\n\
 	{\n\
-		${2:/* concurrently running code */}\n\
+		${3:/* concurrently running code */}\n\
 	}\n\
 ## Handler\n\
 snippet on\n\
@@ -19,10 +19,14 @@ snippet on\n\
 	{\n\
 		${5:/* handler code to run when trigger fires */}\n\
 	}\n\
+## For\n\
+snippet for\n\
+	for (${1:initialisation}; ${2:loop condition}; ${3:end-of-loop action}) {\n\
+		${2:/* code executed repeatedly as long as condition is true */}\n\
+	}\n\
 ## Foreach\n\
 snippet fore\n\
-	foreach ${1:object or array} as ${2:[key,]} ${3:value}\n\
-	{\n\
+	foreach ${1:object or array} as ${2:[key,]} ${3:value} {\n\
 		${5:/* do something with value (and optionally, key) */}\n\
 	}\n\
 ## Try/Catch\n\
@@ -43,7 +47,7 @@ snippet if\n\
 	}\n\
 ## while\n\
 snippet whi\n\
-	while (${1:condition}) {\n\
+	while (${1:loop condition}) {\n\
 		${2:/* code executed repeatedly as long as condition is true */}\n\
 	}\n\
 ";
