@@ -175,6 +175,7 @@ remaining(?:pixels|time)|\
 (?:start|stop)scroll|\
 maxblocktime|\
 maxruntime|\
+midibus|note|control|program|pitchbend|\
 modbus(?:master|slave)|\
 neededledpower|\
 ord|\
