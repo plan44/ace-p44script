@@ -176,6 +176,7 @@ remaining(?:pixels|time)|\
 maxblocktime|\
 maxruntime|\
 midibus|note|control|program|pitchbend|\
+serial|received|send(?:break)?|rts|dtr|\
 modbus(?:master|slave)|\
 neededledpower|\
 ord|\
