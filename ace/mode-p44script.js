@@ -137,7 +137,7 @@ from|\
 run(?:to)|\
 stop(?:animations|actions)?|\
 (?:global|context|local|thread)vars|\
-(?:global|context)builtins|\
+(?:global|context)?builtins|\
 (?:read|write)file|\
 animat(?:or|ions)|\
 addledchain|\
@@ -191,6 +191,7 @@ purge|\
 spidevice|\
 strrep|\
 trigger|\
+threads|\
 udpsocket|\
 uppercase|\
 urlencode|\
