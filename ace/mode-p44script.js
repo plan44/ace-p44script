@@ -63,6 +63,7 @@ await|\
 breakpoint|\
 between_dates|\
 cos|\
+copy|\
 cquote|\
 cyclic|\
 content_position|\
@@ -96,6 +97,7 @@ json|\
 jsonresource|\
 lastarg|\
 limited|\
+line|\
 ln|\
 loadexp|\
 log|\
@@ -175,6 +177,7 @@ remaining(?:pixels|time)|\
 (?:start|stop)scroll|\
 maxblocktime|\
 maxruntime|\
+show|launch|move|drop|setdown|recolor|(?:completed|remove)row|event|\
 midibus|note|control|program|pitchbend|\
 serial|received|send(?:break)?|rts|dtr|\
 modbus(?:master|slave)|\
