@@ -115,7 +115,7 @@ random|\
 round|\
 replace|\
 restartapp|\
-second|\
+(?:frac)?second|\
 shellquote|\
 signal|\
 sin|\
