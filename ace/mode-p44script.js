@@ -109,6 +109,7 @@ message|\
 min|\
 minute|\
 month|\
+name|\
 (?:app|next|product)version|\
 number|\
 random|\
@@ -196,6 +197,7 @@ strrep|\
 trigger|\
 threads|\
 udpsocket|\
+uid|\
 uppercase|\
 urlencode|\
 valuesource|\
