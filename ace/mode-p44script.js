@@ -118,7 +118,7 @@ replace|\
 restartapp|\
 (?:frac)?second|\
 shellquote|\
-signal|\
+sign(?:al)?|\
 sin|\
 string|\
 strlen|\
