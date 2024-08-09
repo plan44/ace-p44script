@@ -216,7 +216,7 @@ var p44scriptHighlightRules = function() {
         "break|continue|else|if|" +
         "return|while|foreach|for|catch|try|" +
         "concurrent|on|function|toggling|changing|evaluating|gettingtrue|stable|as|" +
-        "var|glob|global|default|threadvar|let|unset|local|passing"
+        "var|glob|global|default|threadvar|let|unset|local|passing|include"
     );
 
     var storageType = (
