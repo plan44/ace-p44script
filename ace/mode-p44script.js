@@ -59,6 +59,7 @@ var cFunctions = exports.cFunctions =
 abort|\
 abs|\
 after_time|\
+autorestart|\
 await|\
 breakpoint|\
 between_dates|\
