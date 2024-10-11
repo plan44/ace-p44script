@@ -170,7 +170,7 @@ isok|\
 ledchaincover|\
 lock|\
 lowercase|\
-lrg|\
+lrg(?:views|fonts)?|\
 (?:make|push|pop|root)?view|\
 pushstep|\
 start|\
