@@ -142,7 +142,8 @@ run(?:to)|\
 stop(?:animations|actions)?|\
 (?:global|context|local|thread)vars|\
 (?:global|context)?builtins|\
-(?:read|write)file|\
+(?:read|write|edit)file|\
+listfiles|\
 animat(?:or|ions)|\
 addledchain|\
 analogcoloroutput|\
@@ -171,6 +172,7 @@ ledchaincover|\
 lock|\
 lowercase|\
 lrg(?:views|fonts)?|\
+loadfont|\
 (?:make|push|pop|root)?view|\
 pushstep|\
 start|\
