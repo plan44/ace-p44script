@@ -160,7 +160,7 @@ device|\
 digitalio|\
 feature(?:call|event)?|\
 flipbit|\
-global(?:functions|handlers|s)|\
+global(?:functions|handlers|s|events)|\
 hex|\
 hsv|\
 httprequest|\
@@ -172,6 +172,7 @@ ledchaincover|\
 lock|\
 lowercase|\
 lrg(?:views|fonts)?|\
+lvgl|\
 loadfont|\
 (?:make|push|pop|root)?view|\
 pushstep|\
