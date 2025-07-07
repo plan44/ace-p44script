@@ -113,6 +113,7 @@ month|\
 name|\
 (?:app|next|product)version|\
 number|\
+producthardwareid|\
 random|\
 round|\
 replace|\
