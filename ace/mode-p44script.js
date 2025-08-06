@@ -169,7 +169,7 @@ i2cdevice|\
 ifok|\
 indicator|\
 isok|\
-ledchaincover|\
+led(?:chaincover|maindim)|\
 lock|\
 lowercase|\
 lrg(?:views|fonts)?|\
