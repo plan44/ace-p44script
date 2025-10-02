@@ -68,6 +68,7 @@ copy|\
 cquote|\
 cyclic|\
 content_position|\
+(?:dis)?connect(?:ed)?|\
 dawn|\
 day|\
 delay(?:until)?|\
@@ -201,7 +202,7 @@ spidevice|\
 strrep|\
 trigger|\
 threads|\
-udpsocket|\
+(?:tcp|udp)socket|\
 uid|\
 uppercase|\
 urlencode|\
