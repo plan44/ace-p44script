@@ -63,12 +63,14 @@ autorestart|\
 await|\
 breakpoint|\
 between_dates|\
+bytetime|\
+close|\
 cos|\
 copy|\
 cquote|\
 cyclic|\
 content_position|\
-(?:dis)?connect(?:ed)?|\
+(?:dis)?connect(?:ed|ion)?|\
 dawn|\
 day|\
 delay(?:until)?|\
@@ -82,6 +84,7 @@ eval|\
 every|\
 exp|\
 find|\
+floatmode|\
 format|\
 formattime|\
 frac|\
@@ -119,6 +122,7 @@ random|\
 round|\
 replace|\
 restartapp|\
+recoverymode|\
 (?:frac)?second|\
 shellquote|\
 sign(?:al)?|\
@@ -188,13 +192,14 @@ show|launch|move|drop|setdown|recolor|(?:completed|remove)row|event|\
 midibus|note|control|program|pitchbend|\
 serial|received|send(?:break)?|rts|dtr|\
 modbus(?:master|slave)|\
+(?:get|set|read|write)(?:bit|[sf]?reg)|\
 neededledpower|\
 ord|\
 (?:post|put|get)url|\
 removeledchains|\
 savescene|\
 scene(?:id|no)?|\
-set(?:bit|ledrefresh|maxledpower)|\
+set(?:bit|ledrefresh|maxledpower|model)|\
 rgb|\
 reset|\
 purge|\
