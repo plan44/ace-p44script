@@ -62,14 +62,14 @@ after_time|\
 autorestart|\
 await|\
 breakpoint|\
-between_dates|\
+between_(?:dates|times)|\
 bytetime|\
 close|\
 cos|\
 copy|\
 cquote|\
 cyclic|\
-content_position|\
+(?:sun|content_)position|\
 (?:dis)?connect(?:ed|ion)?|\
 dawn|\
 day|\
@@ -83,6 +83,7 @@ error(?:code|domain|message)?|\
 eval|\
 every|\
 exp|\
+filter|\
 find|\
 floatmode|\
 format|\
@@ -146,6 +147,7 @@ function|\
 from|\
 run(?:to)|\
 stop(?:animations|actions)?|\
+threadid|\
 (?:global|context|local|thread)vars|\
 (?:global|context)?builtins|\
 (?:read|write|edit)file|\
