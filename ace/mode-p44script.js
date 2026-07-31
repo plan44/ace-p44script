@@ -60,6 +60,7 @@ abort|\
 abs|\
 after_time|\
 autorestart|\
+average|\
 await|\
 breakpoint|\
 between_(?:dates|times)|\
