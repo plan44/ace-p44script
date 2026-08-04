@@ -65,9 +65,11 @@ await|\
 breakpoint|\
 between_(?:dates|times)|\
 bytetime|\
+channels?|\
 close|\
 cos|\
 copy|\
+confirm|\
 cquote|\
 cyclic|\
 (?:sun|content_)position|\
@@ -76,6 +78,7 @@ dawn|\
 day|\
 delay(?:until)?|\
 describe|\
+dmxinput|\
 dnssdbrowse|\
 dusk|\
 elements|\
