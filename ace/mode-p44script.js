@@ -205,7 +205,7 @@ ord|\
 removeledchains|\
 savescene|\
 scene(?:id|no)?|\
-set(?:bit|ledrefresh|maxledpower|model)|\
+set(?:bit|ledrefresh|maxledpower|model|controlvalue)|\
 rgb|\
 reset|\
 purge|\
@@ -224,6 +224,8 @@ runafter|\
 repeat|\
 from|\
 runto|\
+zone(?:event)?|\
+controllerevent|\
 stop)\
 \\b";
 
