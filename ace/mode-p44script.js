@@ -224,7 +224,7 @@ runafter|\
 repeat|\
 from|\
 runto|\
-zone(?:event)?|\
+zone(?:s|event)?|\
 controllerevent|\
 stop)\
 \\b";
