@@ -74,6 +74,7 @@ cquote|\
 cyclic|\
 (?:sun|content_)position|\
 (?:dis)?connect(?:ed|ion)?|\
+(?:en|de)(?:crypt|code)\
 dawn|\
 day|\
 delay(?:until)?|\
